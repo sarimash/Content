@@ -16253,7 +16253,7 @@
                  "name":"",
                  "rotation":0,
                  "type":"",
-                 "visible":true,
+                 "visible":false,
                  "width":64,
                  "x":5504,
                  "y":1664
@@ -24008,7 +24008,7 @@
                  "visible":true,
                  "width":64,
                  "x":8640,
-                 "y":10816
+                 "y":10752
                 }, 
                 {
                  "gid":2363,
@@ -26655,26 +26655,6 @@
                  "width":64,
                  "x":7360,
                  "y":1216
-                }, 
-                {
-                 "gid":2363,
-                 "height":64,
-                 "id":6121,
-                 "name":"Skeleton Raid Spawner",
-                 "properties":
-                    {
-                     "tag":"Antania Dedlaenmaze Skeleton Raid"
-                    },
-                 "propertytypes":
-                    {
-                     "tag":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":6720,
-                 "y":6464
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -28634,7 +28614,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":6122,
+ "nextobjectid":6121,
  "orientation":"orthogonal",
  "properties":
     {
@@ -28642,7 +28622,7 @@
      "itemExpirationHours":6,
      "itemGarbageCollection":30,
      "maxCreatures":1200,
-     "maxLevel":30,
+     "maxLevelExp":30,
      "maxSkill":20,
      "region":"Antania",
      "respawnMap":"DedlaenMaze",
@@ -28656,7 +28636,7 @@
      "itemExpirationHours":"int",
      "itemGarbageCollection":"int",
      "maxCreatures":"int",
-     "maxLevel":"int",
+     "maxLevelExp":"int",
      "maxSkill":"int",
      "region":"string",
      "respawnMap":"string",
